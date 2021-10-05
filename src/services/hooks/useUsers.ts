@@ -9,7 +9,7 @@ export function useUsers() {
 
       console.log(data);
 
-      const users = data.users.map((user: userProps) => {
+      const users = data.users.map((user) => {
         return {
           id: user.id,
           name: user.name,
